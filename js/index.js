@@ -32,7 +32,6 @@ link.forEach(element => {
   });  
 });
 
-
 list.style.listStyleType = `none`;
 list.style.display = `flex`;
 list.style.maxWidth = `1000px`;

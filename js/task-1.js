@@ -66,6 +66,7 @@ link.style.fontSize = `16px`;
   link.style.border = `1px solid #6c8cff`;  
   });
 
+  
   link.addEventListener('blur', () => {  
   link.style.backgroundColor = `#4E75FF`;
   link.style.border = `1px solid #4E75FF`;
