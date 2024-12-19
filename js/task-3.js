@@ -33,3 +33,35 @@ const formInput = document.querySelector('input');
 formInput.addEventListener('mouseleave', () => {  
   formInput.style.border = `1px solid #808080`;
 });  
+
+const link = document.querySelector('a');
+    link.style.textDecoration = `none`;
+    link.style.border = `1px solid black`;
+    link.style.borderRadius = `8px`;
+    link.style.padding = `10px 40px`;
+    link.style.backgroundColor = `#4E75FF`;
+    link.style.border = `1px solid #4E75FF`;
+    link.style.color = `#fff`;
+    link.style.fontWeight = `600`;
+    link.style.fontSize = `16px`;
+    
+
+   link.addEventListener('mouseenter', () => {  
+   link.style.backgroundColor = '#6c8cff'
+   link.style.border = `1px solid #6c8cff`;
+  });
+
+   link.addEventListener('mouseleave', () => {  
+   link.style.backgroundColor = `#4E75FF`;
+   link.style.border = `1px solid #4E75FF`;
+  });  
+
+  link.addEventListener('focus', () => {  
+  link.style.backgroundColor = '#6c8cff'
+  link.style.border = `1px solid #6c8cff`;  
+  });
+
+  link.addEventListener('blur', () => {  
+  link.style.backgroundColor = `#4E75FF`;
+  link.style.border = `1px solid #4E75FF`;
+  });  
